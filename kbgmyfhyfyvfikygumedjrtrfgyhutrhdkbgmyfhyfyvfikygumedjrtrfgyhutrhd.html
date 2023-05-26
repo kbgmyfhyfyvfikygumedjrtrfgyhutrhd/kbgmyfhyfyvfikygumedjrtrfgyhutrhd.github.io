@@ -5,33 +5,9 @@
 <h2>Once you click launch, close all of your chrome tabs, and reopen them. Then, everything will be unblocked</h2>
 
 <script>
-  var key1 = "off"
-var key2 = "off"
-var safety = "on"
-  function prompt(){
-    var confirm = confirm("Launch Authorization Confirm?")
-    if (confirm == true) {
-  unblock();
-    }
-}
-  }
-  function safety(){
-    safety = "off"
-  }
-    function key1(){
-    key1 = "turn"
-  }
-      function key2(){
-    key2 = "turn"
-  }
+ 
 function unblock(){
-  if(safety == "off"){
-    if (key1 == "turn"){
-      if key2 == "turn"){
 document.write('<iframe src="https://localhost:6543/lockoutOverride" hidden></iframe>');
         alert("Carbon Launched! Please close all browser tabs before re-opening your browser");
-      }
-    }
-  }
 }
 </script>
