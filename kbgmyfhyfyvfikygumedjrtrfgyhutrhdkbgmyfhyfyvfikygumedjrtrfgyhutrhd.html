@@ -1,6 +1,3 @@
-var key1 = "off"
-var key2 = "off"
-var safety = "on"
 <button onclick="safety();">Safety Off</button>
 <button onclick="key1();">Key 1</button>
 <button onclick="key2();">Key 2</button>
@@ -8,6 +5,9 @@ var safety = "on"
 <h2>Once you click launch, close all of your chrome tabs, and reopen them. Then, everything will be unblocked</h2>
 
 <script>
+  var key1 = "off"
+var key2 = "off"
+var safety = "on"
   function prompt(){
     if (confirm("Launch Authorization Confirm?") == true) {
   function unblock();
